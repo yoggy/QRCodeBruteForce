@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>QRCodeBruteForce</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>qrcode-test.js</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="url_input_component" v-on:input="on_update">
+                        URL : <input v-model="url" size=50>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="padding:2em">
+                    <div id="qrcode-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/qrcode.min.js"></script> <!-- qrcode.js https://davidshimjs.github.io/qrcodejs/ -->
+        <script type="text/javascript" src="js/vue.js"></script>    <!-- vue.js https://jp.vuejs.org/ -->
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
