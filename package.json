@@ -2,13 +2,13 @@
     "name": "net.sabamiso.qrcodebruteforce",
     "displayName": "QRCodeBruteForce",
     "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "description": "QRCodeBruteForce",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Apache Cordova Team",
-    "license": "Apache-2.0",
+    "author": "yoggy",
+    "license": "MIT",
     "dependencies": {
         "browser-sync": "^2.23.6",
         "cheerio": "^0.19.0",
